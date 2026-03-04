@@ -174,7 +174,7 @@ function filterInterview() {
                     <i class="delete fa-solid fa-trash text-black-500 hover:text-white bg-gray-100 hover:bg-blue-500 rounded-full p-5 cursor-pointer"></i>
                 </div>
                 <h1 class="salaryDetails text-[#64748B]">  ${intervw.salaryDetails}</h1>
-                <button class="status btn w-25 hidden bg-[#EEF4FF]">Not Applied</button>
+                <button class="status btn w-25 bg-[#EEF4FF] border-green-500 hover:bg-green-400">Interview</button>
 
                 <h1 class="descriptiion">  ${intervw.description}</h1>
                 <div class="flex flex-row gap-[8px]">
@@ -227,7 +227,7 @@ function filterRejected() {
                     <i class="delete fa-solid fa-trash text-black-500 hover:text-white bg-gray-100 hover:bg-blue-500 rounded-full p-5 cursor-pointer"></i>
                 </div>
                 <h1 class="salaryDetails text-[#64748B]">  ${reject.salaryDetails}</h1>
-                <button class="status btn w-25 hidden bg-[#EEF4FF]">Not Applied</button>
+                <button class="status btn w-25 border-red-500 hover:bg-red-400 bg-[#EEF4FF]">Rejected</button>
 
                 <h1 class="descriptiion">  ${reject.description}</h1>
                 <div class="flex flex-row gap-[8px]">
